@@ -137,7 +137,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                 Text('Multiplication Tables App v1.0',
                                     style:
                                         Theme.of(context).textTheme.bodyMedium),
-                                Text('Developed by Your Name',
+                                Text(
+                                    'Developed in an afternoon for fun: https://github.com/sennraf/multiplicationtables',
                                     style:
                                         Theme.of(context).textTheme.bodyMedium),
                               ],
