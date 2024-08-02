@@ -134,10 +134,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                     style:
                                         Theme.of(context).textTheme.titleLarge),
                                 const SizedBox(height: 8),
-                                Text('Multiplication Tables App v1.0',
-                                    style:
-                                        Theme.of(context).textTheme.bodyMedium),
-                                Text(
+                                SelectableText(
                                     'Developed in an afternoon for fun: https://github.com/sennraf/multiplicationtables',
                                     style:
                                         Theme.of(context).textTheme.bodyMedium),
